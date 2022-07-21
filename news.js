@@ -59,7 +59,7 @@ Sports.addEventListener('click', () => {
 
 function reload() {
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', `https://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=495a882ca2684fdbb1e11ec0846a6761`, true);
+    xhr.open('GET', `https://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=0170292b149741ada15b38eb57e6eb6d`, true);
 
     xhr.onload = function () {
         if (this.status === 200) {
